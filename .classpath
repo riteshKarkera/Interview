@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_162"/>
+	<classpathentry kind="src" path="instructions/src/main/java"/>
+	<classpathentry kind="src" path="instructions/src/test/java"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="instructions/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/hamcrest-core-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/junit.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/slf4j.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/jbehave-core-3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/assertj-core-1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/logback.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
