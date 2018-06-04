@@ -51,7 +51,7 @@ public final class BehaviouralTestEmbedder extends ConfigurableEmbedder {
         configuredEmbedder().runStoriesAsPaths(paths);
     }
 
-    @Override
+    
     public InjectableStepsFactory stepsFactory() {
         assertThat(stepsFactory).isNotNull();
         return stepsFactory;
