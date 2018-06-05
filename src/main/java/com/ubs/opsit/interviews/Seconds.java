@@ -23,8 +23,6 @@ public class Seconds implements TimeConverter {
 		int seconds = 0;
 		try {
 			seconds = Integer.parseInt(aTime);
-
-			LOG.info("Seconds is not equals to Zero");
 			if (seconds % 2 == 0) {
 				LOG.info("Seconds is modulas of Two");
 				LOG.info("Turning ON the Lamp");
