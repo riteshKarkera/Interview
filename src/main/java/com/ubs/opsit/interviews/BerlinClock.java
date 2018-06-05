@@ -34,7 +34,7 @@ public class BerlinClock {
 			LOG.debug("Returns true as the time is valid");
 			return true;
 		} catch (ParseException e) {
-			LOG.debug("Returns false if time is valid");
+			LOG.debug("Returns false as time is invalid");
 			return false;
 		}
 	}
