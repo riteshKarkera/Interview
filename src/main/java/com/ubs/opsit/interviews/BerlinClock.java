@@ -39,6 +39,13 @@ public class BerlinClock {
 		}
 	}
 
+	/**
+	 * gets the berlin lamps for the time passed in HH:MM:SS format
+	 * 
+	 * @param aTime
+	 * @return the berlin lamp representation where R represents Red, Y represents
+	 *         Yellow, O represents the lamp is OFF.
+	 */
 	public String getBerlinLamps(String aTime) {
 		if (isTimeFormatValid(aTime)) {
 			String[] time = aTime.split(":");
@@ -70,8 +77,8 @@ public class BerlinClock {
 
 	public static void main(String[] args) {
 
-		BerlinClock bcl = new BerlinClock(new Seconds(), new Hour(), new Minute());
-		System.out.println(bcl.getBerlinLamps("10:41:44"));
+		BerlinClock berlinclock = new BerlinClock(new Seconds(), new Hour(), new Minute());
+		System.out.println(berlinclock.getBerlinLamps("10:41:44"));
 	}
 
 }

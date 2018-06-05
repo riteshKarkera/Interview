@@ -56,9 +56,4 @@ public class Hour implements TimeConverter {
 		return str.toString();
 	}
 
-	public static void main(String[] args) {
-		Hour h = new Hour();
-		h.convertTime("ABCD");
-	}
-
 }
