@@ -66,7 +66,7 @@ public class BerlinClock {
 		int hour = Integer.parseInt(hours);
 		int minute = Integer.parseInt(minutes);
 		int second = Integer.parseInt(seconds);
-		if (minute < 60 && minute >= 0 && second <= 60 && second >= 0 && hour <= 24 && hour >= 1) {
+		if (minute <= 60 && minute >= 0 && second <= 60 && second >= 0 && hour <= 24 && hour >= 0) {
 			LOG.debug("Time passed is within the range");
 			return true;
 		}
@@ -78,7 +78,7 @@ public class BerlinClock {
 	public static void main(String[] args) {
 
 		BerlinClock berlinclock = new BerlinClock(new Seconds(), new Hour(), new Minute());
-		System.out.println(berlinclock.getBerlinLamps("10:41:44"));
+		System.out.println(berlinclock.getBerlinLamps("24:00:00"));
 	}
 
 }
